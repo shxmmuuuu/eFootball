@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Football Match Groups</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Ensure the background covers all screen sizes */
+        .bg-custom {
+            background: url('/views/img/main_page_1.png') no-repeat center center;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        .header.h1{
+            color: #000;
+        }
+    </style>
+</head>
+<body class="bg-custom text-white">
+
+    <!-- Header with Logo -->
+    <header class="bg-green-600 bg-opacity-80 p-4 text-center flex flex-col items-center">
+        <img src="/views/img/efootball-seeklogo.png" alt="Logo" class="w-24 h-24 mb-2 shadow-lg"> 
+        <h1 class="text-black font-bold
+        #000"> E-Football Match Groups</h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto p-6">
+        <!-- Group Links Section -->
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg bg-opacity-90">
+                <h2 class="text-lg font-semibold">WhatsApp Group</h2>
+                <p class="text-sm text-gray-400">Join our active WhatsApp football community.</p>
+                <a href="https://chat.whatsapp.com/IxeJk7qJ2Sb4Yp28JZzqyg" class="block mt-2 bg-green-500 text-white p-2 rounded-md text-center">Join Now</a>
+            </div>
+            
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg bg-opacity-90">
+                <h2 class="text-lg font-semibold">WhatsApp Group</h2>
+                <p class="text-sm text-gray-400">Stay updated with match schedules.</p>
+                <a href="https://chat.whatsapp.com/GCDJrbRd0bqGj5YfZArMZu" class="block mt-2 bg-green-500 text-white p-2 rounded-md text-center">Join Now</a>
+            </div>
+
+        </div>
+
+        <!-- Add Group Button -->
+        <div class="mt-6 text-center">
+            <a href="#" class="bg-yellow-500 text-white px-6 py-3 rounded-md font-semibold text-lg shadow-lg">
+                ➕ Add Group
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
